@@ -1,14 +1,81 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-    <script type="module" crossorigin src="/assets/index-DK-xQhXp.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-D8b4DHJx.css">
+    <title>Ramon Silva de Matos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" crossorigin href="/assets/index-wenbkaCW.css">
   </head>
   <body>
-    <div id="root"></div>
+
+    <section class="hero">
+      <div class="hero-content">
+        <img src="/foto-perfil..jpeg" alt="Minha Foto" class="foto-perfil" />
+        <h1>Ramon Silva de Matos</h1>
+        <p>Desenvolvedor de Sistemas 🚀</p>
+        <a href="#projetos" class="cta">Meus Projetos</a>
+      </div>
+    </section>
+
+    <section class="sobre-item">
+      <div class="ferramentas">
+        <h2>ferramentas</h2>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python (PyQt5, Pygame)</li>
+        <li>Kotlin + Android Room</li>
+        <li>Git e GitHub</li>
+      </div>
+
+    <section id="sobre" data-aos="fade-up">
+      <h2>Sobre Mim</h2>
+      <p>Olá! Meu nome é Ramon Silva de Matos, tenho 17 anos e moro em Hortolândia - SP.</p>
+      <p>Sou estudante do curso técnico em Desenvolvimento de Sistemas na Escola Manoel Ignácio, onde desenvolvo habilidades em programação, banco de dados, front-end e back-end.</p>
+      <p>Gosto de aprender coisas novas e estou sempre em busca de melhorar minhas habilidades na área de tecnologia.</p>    
+      <ul>
+        <li>📍 Hortolândia - SP</li>
+        <li>📞 (19) 98259-2328</li>
+        <li>📧 kokusilva206@gmail.com</li>
+      </ul>
+    </section>
+
+    <section id="habilidades" data-aos="fade-up">
+      <h2>Habilidades</h2>
+      <h3>Minhas principais habilidades:</h3>         
+      <ul>
+      <li>Desenvolvimento de sites com estrutura HTML semântica e design responsivo com CSS.</li>
+      <li>Criação de interfaces web simples e funcionais com interatividade em JavaScript.</li>
+      <li>Construção de projetos com organização de pastas e uso de ferramentas como Vite.</li>
+      <li>Utilização de Git e GitHub para versionamento de código e colaboração.</li>
+      <li>Aplicação de conceitos de programação orientada a objetos em projetos simples.</li>
+      <li>Boa comunicação e trabalho em grupo durante atividades escolares e em projetos colaborativos.</li>
+      </ul>
+    </section>
+
+    <section id="projetos" data-aos="fade-up">
+      <h2>Projetos</h2>
+      <div class="projetos-grid">
+        <div class="projeto-card">
+          <h3>Simulador de Bomba de Gasolina</h3>
+          <p>Feito em Python com PyQt5. Simula abastecimento com tipos de combustível e valor final.</p>
+          <a href="https://github.com/hincaluan/trabalho_ds.git" target="_blank">🔗 Ver no GitHub</a>
+        </div>
+
+        <div class="projeto-card">
+          <h3>Jogo Medieval em godot(em andamento)</h3>
+          <p>Jogo 2D estilo pixel art com combate.</p>
+          <a href="https://github.com/ramonkoku/larajagodot.git" target="_blank">🔗 Ver no GitHub</a>
+          </div>
+      </div>
+    </section>
+    <footer>
+      <p>© 2025 Ramon Silva de Matos</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
